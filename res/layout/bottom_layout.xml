@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_layout"
+    android:layout_width="match_parent"
+    android:background="@color/bottom_layout_background"
+    android:gravity="center_vertical"
+    android:layout_height="@dimen/bottom_layout_height">
+
+    <TextView
+        android:id="@+id/textview_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/bottom_layout_text_margin"
+        android:layout_marginStart="@dimen/bottom_layout_text_margin"
+        android:text="@string/org_name"
+
+        android:textSize="@dimen/bottom_layout_text_size" />
+
+    <TextView
+        android:id="@+id/textview_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/bottom_layout_text_margin"
+        android:layout_marginRight="@dimen/bottom_layout_text_margin"
+        android:text="@string/copyright_tag"
+        android:textSize="@dimen/bottom_layout_text_size" />
+</RelativeLayout>

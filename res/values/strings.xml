@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Please refer to https://azure.microsoft.com/en-us/services/cognitive-services/face/ to get your subscription key -->
+    <!-- If you have subscription key with its corresponding endpoint, you can add them here to use the service -->
+    <string name="subscription_key">a46c6fb87d9046ed86954a94bb151c02</string>
+    <!--<string name="endpoint">https://westus.api.cognitive.microsoft.com/face/v1.0</string>-->
+    <string name="endpoint">https://westcentralus.api.cognitive.microsoft.com/face/v1.0</string>
+
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_speech">Voice Activity</string>
+    
+    
+    <!-- Error To Be Spoken In Error Cases -->
+    <string name="network_timout">Network timout... Please try again</string>
+    <string name="network_error">Network error... Please try again</string>
+    <string name="audio_error">Error While Listening... Please try again</string>
+    <string name="client_error">Sorry... Error in application... Please contact application vendor</string>
+    <string name="server_error">Voice Recognition Server busy... Please try after some time</string>
+    <string name="speech_timout">You did not speak... Please try again</string>
+    <string name="no_match">You did not speak... Please try again</string>
+    <string name="no_audio_permission">Not Able to Listen... Please try again</string>
+    <string name="no_result_returned">Something went wrong... Please say again</string>
+
+     <!-- Error To Be shown In Error Cases -->
+    <string name="network_timout_toast">Network timout. Please try again.</string>
+    <string name="network_error_toast">Network error. Please try again.</string>
+    <string name="audio_error_toast">Error While Listening. Please try again.</string>
+    <string name="client_error_toast">Sorry. Error in application. Please contact application vendor.</string>
+    <string name="server_error_toast">Voice Recognition Server busy. Please try after some time.</string>
+    <string name="speech_timout_toast">You did not speak. Please try again.</string>
+    <string name="no_match_toast">You did not speak. Please try again.</string>
+    <string name="no_audio_permission_toast">Not Able to Listen. Please try again.</string>
+    <string name="no_result_returned_toast">Something went wrong. Please say again.</string>
+    
+    <!-- Call Command UnRecognized -->
+    <string name="you_said"> You said... </string>
+    
+    <!-- Call Command UnRecognized for toast -->
+    <string name="you_said_toast"> You said </string>
+    
+    <!-- Call Command Accepted -->
+    <string name="user_said"> You said </string>
+    
+    <string name="tts_pause">... </string>
+    <string name="send_button_text">Speach To Text</string>
+    
+    
+    <!-- Message Add -->
+    <string name="error_tts_toast">Error in text to speech utility.</string>
+    <string name="cancel_voice_dialer_toast">Canceling voice messenger.</string>
+    
+    <string name="tts_pause_toast">... </string>
+    <string name="send_button_text_toast">Speach To Text</string>
+
+    <string name="target_image">Target image</string>
+    <string name="select_image">Select\nImage</string>
+    <string name="detection">Detection</string>
+    <string name="manage_person_groups">Manage\nPerson\nGroups</string>
+    <string name="person_groups">Person Groups</string>
+    <string name="faces">Faces in image</string>
+    <string name="identify">Identify</string>
+
+    <!-- Select image activity -->
+    <string name="select_an_image">Select an Image</string>
+    <string name="take_photo">Take a Photo</string>
+    <string name="select_image_in_album">From Gallery</string>
+
+    <!-- Verification activity -->
+    <string name="verify">Verify</string>
+    <string name="face_0">Face0:</string>
+    <string name="face_1">Face1:</string>
+    <string name="manage_persons">Manage\nPersons</string>
+    <string name="verification_menu">Verification\nMenu</string>
+    <string name="persons">Persons</string>
+
+    <!-- Person group management activities -->
+    <string name="select_face_tip">Select this person\'s faces (if exist) by click on the checkbox.</string>
+    <string name="type_in_person_name_tip">Name (within 30 characters)</string>
+    <string name="add_face">Add Face</string>
+    <string name="person_name">Person name:</string>
+    <string name="person_tip">- Long press on a face to delete.</string>
+    <string name="person_group_name">Person group name:</string>
+    <string name="type_in_person_group_name_tip">Name (within 30 characters)</string>
+    <string name="person_group_tip">- Tap on a person to edit.\n- Long press to delete.</string>
+    <string name="add_person">Add Person</string>
+    <string name="person_group_list_tip">- Tap on a group to edit.\n- Long tap to delete.</string>
+    <string name="add_person_group">Add Person Group</string>
+    <string name="delete">Delete</string>
+    <string name="done_and_save">Save</string>
+
+    <!-- Common in all activities -->
+    <string name="progress_dialog_title">Please wait</string>
+
+    <!-- Warning messages -->
+    <string name="person_name_empty_warning_message">Person name cannot be empty</string>
+    <string name="no_face_to_group">No faces to group</string>
+    <string name="no_person_group_selected_for_identification_warning">No person group selected</string>
+    <string name="user_provided_person_name">Person name</string>
+    <string name="user_provided_description_data">User data</string>
+    <string name="user_provided_person_group_name">Person group name</string>
+    <string name="user_provided_person_group_description_data">User data</string>
+    <string name="face_cannot_be_identified">Unknown person</string>
+    <string name="identification">Identification</string>
+    <string name="grouping">Grouping</string>
+    <string name="add_face_to_person">Add Faces To Person</string>
+    <string name="person">Person</string>
+    <string name="person_group">Person Group</string>
+    <string name="person_group_list">Person Group List</string>
+
+    <!-- UI headings -->
+    <string name="app_name">WELLIE</string>
+    <string name="org_name">www.welloculus.org</string>
+    <string name="copyright_tag">© Welloculus: 2017</string>
+
+    <!-- Wellie Character talks -->
+    <string name="no_talk_yet">No talk yet ..</string>
+    <string name="may_i_help_you">May i help you?</string>
+    <string name="you_can_speak_to_me">You can speak to me...</string>
+    <string name="how_can_i_help_you">How can i help you?</string>
+    <string name="talk_to_me">Talk to me</string>
+    <string name="listening_to_you">Listening to you...</string>
+    <string name="let_me_get_on_to_it">Let me get on to it...</string>
+    <string name="got_it">Got it...</string>
+    <string name="didnt_understant">Sorry... I didn\'t understant, speak again</string>
+    <string name="talk_again">Oh! something wrong... I couldn\'t connect... talk again</string>
+
+</resources>

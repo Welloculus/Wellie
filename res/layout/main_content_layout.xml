@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_content_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/webview_mic"
+        android:layout_width="@dimen/mic_width"
+        android:layout_height="@dimen/mic_height"
+        android:layout_gravity="center_horizontal"
+         />
+
+    <com.transility.wellie.uicomponents.CustomTextView
+        android:id="@+id/customTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/text_vertical_margin"
+        android:textSize="15sp" />
+
+    <com.transility.wellie.uicomponents.CustomTextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/text_vertical_margin"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_marginTop="@dimen/text_vertical_margin"
+        android:id="@+id/imageview_wellie_character"
+        android:layout_width="@dimen/wellie_char_width"
+        android:layout_height="@dimen/wellie_char_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/idle_1" />
+
+</LinearLayout>
+
