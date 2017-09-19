@@ -8,6 +8,7 @@ import android.app.ActivityManager.RunningTaskInfo;
 import android.content.ComponentName;
 import android.content.Context;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
@@ -26,7 +27,7 @@ import com.transility.wellie.R;
  * @author shridutt.kothari
  *
  */
-public class BaseActivity extends Activity {
+public class BaseActivity extends AppCompatActivity {
 
 	private static String TAG = BaseActivity.class.getName();
 

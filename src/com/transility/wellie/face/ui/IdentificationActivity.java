@@ -466,7 +466,7 @@ public class IdentificationActivity extends AppCompatActivity {
                 faces = Arrays.asList(detectionResult);
                 for (Face face : faces) {
                     try {
-                        // Crop face thumbnail with five main landmarks drawn from original image.
+                        // Crop face thumbnail with five camera_preview_layout landmarks drawn from original image.
                         faceThumbnails.add(ImageHelper.generateFaceThumbnail(
                                 mBitmap, face.faceRectangle));
                     } catch (IOException e) {
@@ -533,7 +533,6 @@ public class IdentificationActivity extends AppCompatActivity {
                             R.string.face_cannot_be_identified);
                 }
             }
-
             return convertView;
         }
     }

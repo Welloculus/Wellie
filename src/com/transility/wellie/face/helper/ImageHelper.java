@@ -113,7 +113,7 @@ public class ImageHelper {
     }
 
     // Draw detected face rectangles in the original image. And return the image drawn.
-    // If drawLandmarks is set to be true, draw the five main landmarks of each face.
+    // If drawLandmarks is set to be true, draw the five camera_preview_layout landmarks of each face.
     public static Bitmap drawFaceRectanglesOnBitmap(
             Bitmap originalBitmap, Face[] faces, boolean drawLandmarks) {
         Bitmap bitmap = originalBitmap.copy(Bitmap.Config.ARGB_8888, true);

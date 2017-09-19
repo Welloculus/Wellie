@@ -15,7 +15,6 @@
         android:layout_marginLeft="@dimen/bottom_layout_text_margin"
         android:layout_marginStart="@dimen/bottom_layout_text_margin"
         android:text="@string/org_name"
-
         android:textSize="@dimen/bottom_layout_text_size" />
 
     <TextView

@@ -2,11 +2,10 @@
 <resources>
 
     <!-- Please refer to https://azure.microsoft.com/en-us/services/cognitive-services/face/ to get your subscription key -->
-    <!-- If you have subscription key with its corresponding endpoint, you can add them here to use the service -->
-    <string name="subscription_key">a46c6fb87d9046ed86954a94bb151c02</string>
+    <!-- If you have subscription key with its corresponding endpoint, you can add them here to use the service  -->
+    <string name="subscription_key">936e625a90ed45c49077d3168635ccec</string>
     <!--<string name="endpoint">https://westus.api.cognitive.microsoft.com/face/v1.0</string>-->
     <string name="endpoint">https://westcentralus.api.cognitive.microsoft.com/face/v1.0</string>
-
 
     <string name="menu_settings">Settings</string>
     <string name="title_activity_speech">Voice Activity</string>
@@ -126,4 +125,12 @@
     <string name="didnt_understant">Sorry... I didn\'t understant, speak again</string>
     <string name="talk_again">Oh! something wrong... I couldn\'t connect... talk again</string>
 
+
+    <string name="permission_file_system_rationale">Access to the file system is needed for app to work</string>
+    <string name="no_permission_file_system_rationale">This application cannot run because it does not have the access to file system.  The application will now exit. Please srat the app again.</string>
+
+    <string name="permission_camera_rationale">Access to the camera is needed for face detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="no_face_detected_or_person_group_does_not_exists">No face detected or person group does not exist Please create a person group and add face</string>
 </resources>

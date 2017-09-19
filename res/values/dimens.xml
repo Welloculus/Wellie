@@ -21,4 +21,5 @@
     <dimen name="wellie_char_width">380dip</dimen>
 
     <dimen name="text_vertical_margin">20dip</dimen>
+    <dimen name="camera_preview_width">100dp</dimen>
 </resources>

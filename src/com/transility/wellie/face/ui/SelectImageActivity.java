@@ -34,8 +34,10 @@ package com.transility.wellie.face.ui;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.StrictMode;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -47,6 +49,7 @@ import com.transility.wellie.R;
 
 import java.io.File;
 import java.io.IOException;
+import java.lang.reflect.Method;
 
 // The activity for the user to select a image and to detect faces in the image.
 public class SelectImageActivity extends AppCompatActivity {
@@ -109,6 +112,14 @@ public class SelectImageActivity extends AppCompatActivity {
             // Save the photo taken to a temporary file.
             File storageDir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
             try {
+                if(Build.VERSION.SDK_INT>=24){
+                    try{
+                        Method m = StrictMode.class.getMethod("disableDeathOnFileUriExposure");
+                        m.invoke(null);
+                    }catch(Exception e){
+                        e.printStackTrace();
+                    }
+                }
                 File file = File.createTempFile("IMG_", ".jpg", storageDir);
                 mUriPhotoTaken = Uri.fromFile(file);
                 intent.putExtra(MediaStore.EXTRA_OUTPUT, mUriPhotoTaken);
